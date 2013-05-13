@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[<ul class="nav nav-tabs nav-stacked">
+	$1
+</ul>]]></content>
+	<tabTrigger>tnav-stacked</tabTrigger>
+	<scope>text.html</scope>
+</snippet>

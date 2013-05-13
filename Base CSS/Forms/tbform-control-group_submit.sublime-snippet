@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[<div class="control-group">
+	<div class="controls">
+		<input type="submit" value="Submit"${2: class="${3:btn}"}>
+	</div>
+</div>]]></content>
+	<tabTrigger>tbform-control-group_submit</tabTrigger>
+	<scope>text.html</scope>
+</snippet>

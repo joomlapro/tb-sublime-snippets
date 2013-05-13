@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[<div class="control-group">
+	<label class="control-label" for="input${1/(.+)/\u\1/g}">${1:Name}</label>
+	<div class="controls">
+		<input type="text" id="input${1/(.+)/\u\1/g}"${2: class="${3:span6}"} placeholder="${1/(.+)/\u\1/g}">
+		${4:<span class="help-inline">${5:Message}</span>}
+	</div>
+</div>]]></content>
+	<tabTrigger>tbform-control-group_input</tabTrigger>
+	<scope>text.html</scope>
+</snippet>

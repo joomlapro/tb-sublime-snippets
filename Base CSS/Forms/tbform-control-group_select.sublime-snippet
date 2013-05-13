@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[<div class="control-group">
+	<label class="control-label" for="input${1/(.+)/\u\1/g}">${1:Name}</label>
+	<div class="controls">
+		<select id="input${1/(.+)/\u\1/g}"${2: class="${3:span6}}">
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+		</select>
+		${4:<span class="help-inline">${5:Message}</span>}
+	</div>
+</div>]]></content>
+	<tabTrigger>tbform-control-group_select</tabTrigger>
+	<scope>text.html</scope>
+</snippet>
